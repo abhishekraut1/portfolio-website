@@ -72,7 +72,7 @@ nav {
 
 a {
   color: black;
-  font-size: 25px;
+  font-size: 24px;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -308,9 +308,16 @@ section {
   flex-direction: column;
 }
 
+.text-container p{
+  font-size: 22px;
+}
+
 .about-containers,
 .about-details-container {
   display: flex;
+}
+.about{
+  margin: -1rem 10rem
 }
 
 .about-pic {

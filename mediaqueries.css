@@ -1,5 +1,5 @@
 #profile {
-  margin: 1rem 10rem;
+  margin: 1rem 0rem;
 }
 @media screen and (max-width: 1400px) {
   #profile {
@@ -82,13 +82,13 @@
     font-size: 1.25rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
-  .nav-links {
+  /* .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
-  }
+  } */
   .section__pic-container {
     width: auto;
     height: 46vw;
@@ -108,5 +108,112 @@
 @media screen and (min-width: 1372.44px) {
   #profile{
     margin: -2rem 10rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  a{
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 1.6rem;
+}
+}
+@media only screen and (min-width: 500) and (max-width: 600px) {
+  .contact-info-container p, .nav-links li a {
+    font-size: 1.1rem;
+}
+.logo {
+    font-size: 1.3rem;
+}
+.nav-links {
+    gap: 1.5rem;
+}
+}
+@media screen and (min-width: 600) and (max-width: 700px) {
+  .nav-links {
+    gap: 1.5rem;
+}
+}
+@media screen and (max-width: 500px) {
+  .nav-links {
+    /* gap: 1.08rem; */
+}
+
+  .logo{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+  .text-container p{
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+  .text-container p{
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .nav-links {
+    gap: 0.5rem;
+}
+}
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+  article {
+    width: 4.5rem;
+}
+}
+@media only screen and (max-width: 420px) {
+  article {
+    width: 3rem;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  .contact-info-container p, .nav-links li a {
+    font-size: 0.9rem;
+}.logo {
+    font-size: 1rem;
+}
+.text-container p{
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 700px) {
+  a{
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 1.5rem;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+  .logo{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-info-container p, .nav-links li a {
+    font-size: 0.7rem;
+}
+.nav-links {
+  gap: 0.3rem;
+}
+.contact-info-container p, .nav-links li a {
+    font-size: 0.7rem;
+}
+.logo {
+  font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .about{
+    margin: -1rem 2rem;
+  }
+  .contact-info-container a{
+    font-size: 19px;
   }
 }
