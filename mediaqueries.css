@@ -209,6 +209,7 @@
 .logo {
   font-size: 1rem;
 }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -223,6 +224,13 @@
   }
   #desktop-nav{
       height: 65px; 
+  }
+  article img{
+    height: 50px;
+    width: 50px;
+  }
+  article h3{
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 345px) {
@@ -269,4 +277,9 @@
   .text-container p {
     font-size: 13px;
 }
+}
+@media screen and (min-width: 0px) and (max-width: 329px) {
+  article h3{
+    font-size: 13px;
+  }
 }
