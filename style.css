@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #c8f0fff7;
+  background-color: #eeffff;
   /* color: #369bb6; */
 }
 
@@ -25,8 +25,8 @@ p {
 .border-bottom{
   height: 130px;
   /* background-color: #369bb6; */
-  /* border-bottom: 2px solid #369bb6; */
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #369bb6;
+  /* border-bottom: 2px solid black; */
 }
 
 /*************/
@@ -78,12 +78,15 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: blue;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
+.logo:hover{
+  color: blue;
+}
 .logo {
   font-size: 2rem;
 }
