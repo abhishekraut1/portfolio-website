@@ -7,6 +7,7 @@
   padding: 0;
   background-color: #eeffff;
   /* color: #369bb6; */
+  background-color: #0a192f;
 }
 
 body {
@@ -18,19 +19,27 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  /* color: rgb(85, 85, 85); */
+  color: #ccd6f6;
+}
+
+strong{
+  color: #49baa7;
+  }
+
+h1{
+  color: #49baa7;
 }
 
 /*************/
-.border-bottom{
+.border-bottom {
   height: 130px;
   /* background-color: #369bb6; */
-  border-bottom: 2px solid #369bb6;
-  /* border-bottom: 2px solid black; */
+  /* border-bottom: 2px solid #369bb6; */
+  border-bottom: 2px solid #ccd6f6;
 }
 
 /*************/
-
 
 /* TRANSITION */
 
@@ -40,18 +49,18 @@ a,
 }
 
 h3{
-  color: black;
+  color: #ccd6f6;
 }
 
 /* DESKTOP NAV */
 
-#desktop-nav{
+#desktop-nav {
   position: sticky;
-    top: 0px; 
-    width: 100%; 
-    height: 85px;
-    border-radius: 18px;
-    z-index: 1
+  top: 0px;
+  width: 100%;
+  height: 85px;
+  border-radius: 18px;
+  z-index: 1;
 }
 
 nav,
@@ -72,28 +81,27 @@ nav {
 }
 
 a {
-  color: black;
+  /* color: black; */
+  color: #ccd6f6;
   font-size: 24px;
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: blue;
+  color: #49baa7;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
-}
-
-.logo:hover{
-  color: blue;
-}
-.logo {
-  font-size: 2rem;
+  /* text-decoration-color: rgb(181, 181, 181); */
+  text-decoration-color: #ccd6f6;
 }
 
 .logo:hover {
   cursor: pointer;
+}
+.logo {
+  font-size: 2rem;
+  color: #49baa7;
 }
 
 /* HAMBURGER MENU */
@@ -221,6 +229,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: white;
 }
 
 .section__text__p2 {
@@ -275,16 +284,20 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  /* background: rgb(53, 53, 53);
+  color: white; */
+  background: #49baa7;
+  color: black;
 }
 
-.btn-color-1:hover {
+/* .btn-color-1:hover {
   background: rgb(0, 0, 0);
-}
+} */
 
 .btn-color-2 {
   background: none;
+  color: white;
+  border: 1px solid #49baa7;
 }
 
 .btn-color-2:hover {
@@ -312,7 +325,7 @@ section {
   flex-direction: column;
 }
 
-.text-container p{
+.text-container p {
   font-size: 22px;
   outline: rgb(163, 163, 163) solid 0.2rem;
   border-radius: 2rem;
@@ -323,8 +336,8 @@ section {
 .about-details-container {
   display: flex;
 }
-.about{
-  margin: -1rem 10rem
+.about {
+  margin: -1rem 10rem;
 }
 
 .about-pic {
@@ -416,12 +429,15 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  /* color: black; */
+  color: #f5f9ff;
 }
 
 .project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  /* color: black; */
+  color: #f5f9ff;
+  /* border-color: rgb(163, 163, 163); */
+  border-color: #49baa7;
 }
 
 /* CONTACT */
