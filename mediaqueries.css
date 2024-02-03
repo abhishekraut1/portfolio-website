@@ -171,7 +171,7 @@
 }
 @media screen and (min-width: 400px) and (max-width: 450px) {
   .contact-info-container p, .nav-links li a {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }.logo {
     font-size: 1rem;
 }
@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 600px) {
   .logo{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -223,7 +223,7 @@
     display: none;
   }
   #desktop-nav{
-      height: 65px; 
+      height: 60px; 
   }
   article img{
     height: 50px;
@@ -282,4 +282,9 @@
   article h3{
     font-size: 13px;
   }
+}
+@media screen and (min-width: 450.1px) and (max-width: 650px) {
+  #desktop-nav {
+    height: 73px;
+}
 }
